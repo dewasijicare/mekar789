@@ -105,7 +105,7 @@
             borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', display: 'grid'
         });
 
-        onst btnOk = document.createElement('button');
+        const btnOk = document.createElement('button');
         btnOk.innerText = 'OK, SAYA MENGERTI';
         Object.assign(btnOk.style, {
             backgroundColor: '#3b82f6', color: '#ffffff', border: 'none', // Diubah menjadi Biru
