@@ -105,16 +105,16 @@
             borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', display: 'grid'
         });
 
-        const btnOk = document.createElement('button');
+        onst btnOk = document.createElement('button');
         btnOk.innerText = 'OK, SAYA MENGERTI';
         Object.assign(btnOk.style, {
-            backgroundColor: '#ef4444', color: '#ffffff', border: 'none', 
+            backgroundColor: '#3b82f6', color: '#ffffff', border: 'none', // Diubah menjadi Biru
             padding: '12px', borderRadius: '6px', fontSize: '16px', 
             fontWeight: 'bold', cursor: 'pointer', letterSpacing: '1px'
         });
         
-        btnOk.onmouseover = function() { this.style.backgroundColor = '#dc2626'; } 
-        btnOk.onmouseout = function() { this.style.backgroundColor = '#ef4444'; }  
+        btnOk.onmouseover = function() { this.style.backgroundColor = '#2563eb'; } // Biru lebih gelap saat disentuh/dihover
+        btnOk.onmouseout = function() { this.style.backgroundColor = '#3b82f6'; }  // Kembali ke biru semula 
         
         footer.appendChild(btnOk);
 
